@@ -1,6 +1,5 @@
-#include <stdio.h>
-
-// Hàm kiểm tra số nguyên tố
+#include<iostream>
+using namespace std;
 int isPrime(int n) {
     if (n <= 1) {
         return 0; // Không phải số nguyên tố
